@@ -1,0 +1,55 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background: #f7f5f0;
+  color: #333;
+}
+
+header {
+  background: #d0c3a0;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 0.5rem;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+  color: #5b3f1c;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #e9e3d0;
+  margin-top: 2rem;
+}
+
+.tea-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.tea-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ccc;
+}
